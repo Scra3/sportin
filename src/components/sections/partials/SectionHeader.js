@@ -43,8 +43,8 @@ const SectionHeader = ({
             {data.title &&
               <Component className={
                 classNames(
-                  'mt-0',
-                  data.paragraph ? 'mb-16' : 'mb-0'
+                  'mt-0 scra-color-black',
+                  data.paragraph ? 'mb-16 scra-color-black' : 'mb-0 scra-color-black'
                 )}>{data.title}</Component>
             }
             {data.paragraph &&

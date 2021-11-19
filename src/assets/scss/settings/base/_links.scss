@@ -15,7 +15,7 @@ $link--color: (
 	button-link: 						get-color(light, 2),
 	button-link-hover: 					get-color(light, 1),
 	func-link: 							null,
-	func-link-hover: 					null,	
+	func-link-hover: 					null,
 	// ↓ Inverted colors
 	link-inverse: 						get-color(light, 3),
 	link-hover-inverse: 				null,
@@ -28,7 +28,7 @@ $link--color: (
 	button-link-inverse: 				null,
 	button-link-hover-inverse:			get-color(primary, 1),
 	func-link-inverse: 					null,
-	func-link-hover-inverse:			get-color(primary, 1)	
+	func-link-hover-inverse:			get-color(primary, 1)
 );
 
 // Font-weight

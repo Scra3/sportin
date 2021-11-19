@@ -1,0 +1,22 @@
+.scra-form-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.scra-color-black {
+  color: get-color(dark, 1) !important;
+}
+
+@media (max-width: 576px) {
+  .scra-form-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    Input {
+      margin-bottom: 1em;
+      width: 280px;
+    }
+  }
+}
