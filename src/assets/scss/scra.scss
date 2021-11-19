@@ -8,6 +8,15 @@
   color: get-color(dark, 1) !important;
 }
 
+.scra-image {
+  min-width: 850px;
+}
+
+.scra-annonce {
+  margin-left: -263px;
+  min-width: 850px;
+}
+
 @media (max-width: 576px) {
   .scra-form-email {
     display: flex;
@@ -18,5 +27,14 @@
       margin-bottom: 1em;
       width: 280px;
     }
+  }
+
+  .scra-image {
+    min-width: 350px;
+  }
+
+  .scra-annonce {
+    margin-left: -263px;
+    min-width: 350px;
   }
 }

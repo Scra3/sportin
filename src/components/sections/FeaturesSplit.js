@@ -50,7 +50,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Notre application',
+    title: 'Notre plateforme',
     paragraph: 'Moteur de recherche associatif complètement gratuit.'
   };
 
@@ -67,14 +67,12 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Fais ta recherche en quelques cliques.
                   </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                <h3 className="mt-0 mb-12 scra-color-black">
+                  Recherche efficace et rapide
                   </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                <p className="m-0">Trouve l'association de tes rêves à proximité de chez toi !</p>
               </div>
               <div className={
                 classNames(
@@ -83,23 +81,24 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                    className="scra-image"
+                  src={require('./../../assets/images/mockup_1.png')}
                   alt="Features split 01"
-                  width={528}
-                  height={396} />
+                  width={828}
+                  height={896} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Consulter les annonces en quelques cliques.
                   </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                <h3 className="mt-0 mb-12 scra-color-black">
+                  Consulte les annonces des associations
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Trouve l'association qui a besoin de toi !
                   </p>
               </div>
               <div className={
@@ -108,40 +107,13 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
+                <Image className="scra-annonce"
+                    src={require('./../../assets/images/mockup_2.png')}
+                    alt="Features split 01"
+                    width={828}
+                    height={896} />
               </div>
             </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
