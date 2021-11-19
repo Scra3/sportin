@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "510540866a4695acf8371e748e7795ec",
+    "revision": "990398a2ea21a8f4f4632781e418a767",
     "url": "/sportin/index.html"
   },
   {
-    "revision": "5f25572af7a95a7ac7ce",
+    "revision": "52df765b2ebddafd0039",
     "url": "/sportin/static/css/main.f461b73f.chunk.css"
   },
   {
-    "revision": "cb170ed7f435afc85587",
-    "url": "/sportin/static/js/2.27505fc1.chunk.js"
+    "revision": "91478b1d67dd58964686",
+    "url": "/sportin/static/js/2.ca7c5b1f.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/sportin/static/js/2.27505fc1.chunk.js.LICENSE.txt"
+    "url": "/sportin/static/js/2.ca7c5b1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f25572af7a95a7ac7ce",
-    "url": "/sportin/static/js/main.dd6a3de8.chunk.js"
+    "revision": "52df765b2ebddafd0039",
+    "url": "/sportin/static/js/main.e826b40f.chunk.js"
   },
   {
     "revision": "99d1420970a3553b32df",
