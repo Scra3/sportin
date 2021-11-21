@@ -70,13 +70,16 @@ const Hero = ({
                 Promis, on vous écrira que vraiment si c'est nécessaire :).
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <div className="scra-form-email">
-                  <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Mon meilleure email">
-                  </Input>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                <form
+                    className="scra-form-email"
+                    action="https://formspree.io/f/mrgrndad"
+                    method="POST"
+                >
+                  <Input className="form-input" placeholder="Mon meilleure email" type="email" name="_replyto" required/>
+                  <button className="button button-primary button-wide-mobile" type="submit" tag="a" color="primary" >
                     Envoyer
-                  </Button>
-                </div>
+                  </button>
+                </form>
               </div>
             </div>
           </div>

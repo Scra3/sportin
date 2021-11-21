@@ -1,3 +1,12 @@
+.scra-text-icon {
+  font-size: 30px;
+  align-self: flex-start;
+}
+
+.scra-header-title {
+  margin-bottom: 50px;
+}
+
 .scra-form-email {
   display: flex;
   flex-direction: row;
@@ -17,7 +26,22 @@
   min-width: 850px;
 }
 
-@media (max-width: 576px) {
+.scra-search {
+  display: flex;
+  justify-content: space-around;
+  width: 40em;
+  align-items: center;
+}
+
+.scra-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 700px) {
   .scra-form-email {
     display: flex;
     flex-direction: column;
@@ -36,5 +60,21 @@
   .scra-annonce {
     margin-left: -263px;
     min-width: 350px;
+  }
+
+  .scra-search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .scra-header-title {
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    max-width: 366px;
+  }
+
+  .scra-search-button {
+    margin-top: 20px;
   }
 }

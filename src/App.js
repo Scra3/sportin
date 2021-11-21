@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { useLocation, Switch } from 'react-router-dom';
+import { HashRouter, useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
@@ -7,8 +7,9 @@ import ReactGA from 'react-ga';
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
 
-// Views 
+// Views
 import Home from './views/Home';
+import InProcess from './views/inProcess';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -32,13 +33,16 @@ const App = () => {
   }, [location]);
 
   return (
+  <HashRouter basename='/'>
     <ScrollReveal
       ref={childRef}
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute exact path="/in_process" component={InProcess} layout={LayoutDefault} />
         </Switch>
       )} />
+  </HashRouter>
   );
 }
 
