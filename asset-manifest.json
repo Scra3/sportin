@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sportin/static/css/main.c96adb5a.chunk.css",
-    "main.js": "/sportin/static/js/main.fc26ebaf.chunk.js",
-    "main.js.map": "/sportin/static/js/main.fc26ebaf.chunk.js.map",
+    "main.css": "/sportin/static/css/main.018e2601.chunk.css",
+    "main.js": "/sportin/static/js/main.2d269566.chunk.js",
+    "main.js.map": "/sportin/static/js/main.2d269566.chunk.js.map",
     "runtime-main.js": "/sportin/static/js/runtime-main.511cd7f9.js",
     "runtime-main.js.map": "/sportin/static/js/runtime-main.511cd7f9.js.map",
     "static/js/2.8666b9c3.chunk.js": "/sportin/static/js/2.8666b9c3.chunk.js",
     "static/js/2.8666b9c3.chunk.js.map": "/sportin/static/js/2.8666b9c3.chunk.js.map",
     "index.html": "/sportin/index.html",
-    "precache-manifest.dd9100bffb8a5ca4e55c4cfdb6343286.js": "/sportin/precache-manifest.dd9100bffb8a5ca4e55c4cfdb6343286.js",
+    "precache-manifest.8c3d03a9a13afec37e27ace4fac4933b.js": "/sportin/precache-manifest.8c3d03a9a13afec37e27ace4fac4933b.js",
     "service-worker.js": "/sportin/service-worker.js",
-    "static/css/main.c96adb5a.chunk.css.map": "/sportin/static/css/main.c96adb5a.chunk.css.map",
+    "static/css/main.018e2601.chunk.css.map": "/sportin/static/css/main.018e2601.chunk.css.map",
     "static/js/2.8666b9c3.chunk.js.LICENSE.txt": "/sportin/static/js/2.8666b9c3.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/sportin/static/media/illustration-section-02.63d0555d.svg",
     "static/media/feature-tile-icon-01.svg": "/sportin/static/media/feature-tile-icon-01.0f9928d7.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.511cd7f9.js",
     "static/js/2.8666b9c3.chunk.js",
-    "static/css/main.c96adb5a.chunk.css",
-    "static/js/main.fc26ebaf.chunk.js"
+    "static/css/main.018e2601.chunk.css",
+    "static/js/main.2d269566.chunk.js"
   ]
 }
