@@ -1,4 +1,8 @@
 
+.scra-footer {
+  color: white;
+}
+
 .illustration-section-02::after {
   background-image: none !important;
 }
@@ -31,12 +35,11 @@
 }
 
 .scra-image {
-  min-width: 850px;
+  height: auto;
 }
 
 .scra-annonce {
-  margin-left: -263px;
-  min-width: 850px;
+  height: auto;
 }
 
 .scra-search {
@@ -104,5 +107,12 @@
   .scra-description {
     margin-top: 8px;
     margin-bottom: 8px;
+  }
+
+  .scra-annonce, .scra-image {
+    width: 100% !important;
+    margin: auto;
+    height: auto !important;
+    min-width: 100% !important;
   }
 }

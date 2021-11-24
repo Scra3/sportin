@@ -67,7 +67,7 @@ const Hero = ({
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom scra-header-title" data-reveal-delay="400">
                 Si vous souhaitez être averti de la sortie de la plateforme, veuillez saisir votre email.
-                Promis, on vous écrira que vraiment si c'est nécessaire.
+                Promis, on ne vous écrira que si c'est nécessaire.
                 <span>&#128522;</span>
 
               </p>
