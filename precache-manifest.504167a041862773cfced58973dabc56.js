@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0532a99ad03a77dc63e65696aa1dd8fb",
+    "revision": "e8622b1b709c4024610319b047081c36",
     "url": "/sportin/index.html"
   },
   {
-    "revision": "7b1495a4f32a1abeca32",
-    "url": "/sportin/static/css/main.19e0a84f.chunk.css"
+    "revision": "67fea777fccd0575ad14",
+    "url": "/sportin/static/css/main.dd9bf50b.chunk.css"
   },
   {
     "revision": "b025a3bf658da4486368",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sportin/static/js/2.8666b9c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b1495a4f32a1abeca32",
-    "url": "/sportin/static/js/main.2d269566.chunk.js"
+    "revision": "67fea777fccd0575ad14",
+    "url": "/sportin/static/js/main.32fc008b.chunk.js"
   },
   {
     "revision": "99d1420970a3553b32df",
