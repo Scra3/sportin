@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Notre plateforme',
-    paragraph: 'Moteur de recherche associatif complètement gratuit.'
+    paragraph: 'Moteur de recherche sportif complètement gratuit.'
   };
 
   return (
@@ -61,18 +61,18 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content scra-header-title" />
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Fais ta recherche en quelques cliques.
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8 scra-color scra-header-title">
+                  Rechercher en quelques cliques.
                   </div>
-                <h3 className="mt-0 mb-12 scra-color-black">
-                  Recherche efficace et rapide
+                <h3 className="mt-0 mb-12 scra-color-black scra-header-title">
+                  Recherche ton club idéal.
                   </h3>
-                <p className="m-0">Trouve l'association de tes rêves à proximité de chez toi !</p>
+                <p className="m-0 scra-header-title">Parmi les clubs référencés, déniche celui qui te convient et tente ta chance.</p>
               </div>
               <div className={
                 classNames(
@@ -91,14 +91,14 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8 scra-color scra-header-title">
                   Consulter les annonces en quelques cliques.
                   </div>
-                <h3 className="mt-0 mb-12 scra-color-black">
-                  Consulte les annonces des associations
+                <h3 className="mt-0 mb-12 scra-color-black scra-header-title">
+                  Consulte les annonces
                   </h3>
-                <p className="m-0">
-                  Trouve l'association qui a besoin de toi !
+                <p className="m-0 scra-header-title">
+                  Elargis ton champ de recherche et trouve le club qui a besoin de toi.
                   </p>
               </div>
               <div className={

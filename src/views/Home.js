@@ -22,17 +22,17 @@ const Home = () => {
         <>
 
             <div className="container scra-container">
-                <h1 className="text-color-primary scra-text-icon">SportIn</h1>
+                <h1 className="text-color-primary scra-text-icon scra-color">SportIn</h1>
 
-                <h1 className="mt-0 mb-16 scra-color-black scra-header-title">Le premier moteur de recherche sportif</h1>
+                <h1 className="mt-0 mb-16 scra-color-black scra-header-title scra-home-title">Le premier moteur de recherche sportif</h1>
 
             <div className="scra-search">
                 <FormLabel>Quoi</FormLabel>
                 <Input className="form-input" type="email" name="_replyto" required placeholder="basket"/>
                 <FormLabel>Où</FormLabel>
                 <Input className="form-input" type="email" name="_replyto" required placeholder="Paris"/>
-                <button onClick={handleClick} className="button button-primary button-wide-mobile scra-search-button" type="submit" tag="a" color="primary" >
-                    Envoyer
+                <button onClick={handleClick} className="button button-primary button-wide-mobile scra-search-button scra-background-color" type="submit" tag="a" color="primary" >
+                    Rechercher
                 </button>
             </div>
                 <Image

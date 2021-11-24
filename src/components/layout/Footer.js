@@ -40,8 +40,11 @@ const Footer = ({
             topDivider && 'has-top-divider'
           )}>
           <div className="footer-top space-between text-xxs">
-            </div>
+            <h2 className="text-color-primary scra-color">SportIn</h2>
+
+          </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
+
           </div>
         </div>
       </div>

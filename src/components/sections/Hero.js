@@ -61,34 +61,30 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom scra-color-black" data-reveal-delay="200">
-              La plateforme est en cours de construction <span className="text-color-primary">...</span>
+            <h1 className="mt-0 mb-16 reveal-from-bottom scra-color-black scra-header-title" data-reveal-delay="200">
+              La plateforme est en cours de construction <span className="text-color-primary scra-color">...</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Si vous souhaitez être avertie de la sortie de l'application, veuillez saisir votre email.
-                Promis, on vous écrira que vraiment si c'est nécessaire :).
-                </p>
+              <p className="m-0 mb-32 reveal-from-bottom scra-header-title" data-reveal-delay="400">
+                Si vous souhaitez être averti de la sortie de la plateforme, veuillez saisir votre email.
+                Promis, on vous écrira que vraiment si c'est nécessaire.
+                <span>&#128522;</span>
+
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <form
                     className="scra-form-email"
                     action="https://formspree.io/f/mrgrndad"
                     method="POST"
                 >
-                  <Input className="form-input" placeholder="Mon meilleure email" type="email" name="_replyto" required/>
-                  <button className="button button-primary button-wide-mobile" type="submit" tag="a" color="primary" >
+                  <Input className="form-input" placeholder="Mon meilleur email" type="email" name="_replyto" required/>
+                  <button className="button button-primary button-wide-mobile scra-background-color" type="submit" tag="a" color="primary" >
                     Envoyer
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
         </div>
       </div>
     </section>
