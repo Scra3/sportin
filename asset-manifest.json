@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sportin/static/css/main.6c7385a7.chunk.css",
-    "main.js": "/sportin/static/js/main.52adf652.chunk.js",
-    "main.js.map": "/sportin/static/js/main.52adf652.chunk.js.map",
+    "main.js": "/sportin/static/js/main.d1b1ab1f.chunk.js",
+    "main.js.map": "/sportin/static/js/main.d1b1ab1f.chunk.js.map",
     "runtime-main.js": "/sportin/static/js/runtime-main.511cd7f9.js",
     "runtime-main.js.map": "/sportin/static/js/runtime-main.511cd7f9.js.map",
     "static/js/2.8666b9c3.chunk.js": "/sportin/static/js/2.8666b9c3.chunk.js",
     "static/js/2.8666b9c3.chunk.js.map": "/sportin/static/js/2.8666b9c3.chunk.js.map",
     "index.html": "/sportin/index.html",
-    "precache-manifest.872c42cb6c75e0efe378321fd77df843.js": "/sportin/precache-manifest.872c42cb6c75e0efe378321fd77df843.js",
+    "precache-manifest.6cb3fd609faf2f707ec8767601378ba6.js": "/sportin/precache-manifest.6cb3fd609faf2f707ec8767601378ba6.js",
     "service-worker.js": "/sportin/service-worker.js",
     "static/css/main.6c7385a7.chunk.css.map": "/sportin/static/css/main.6c7385a7.chunk.css.map",
     "static/js/2.8666b9c3.chunk.js.LICENSE.txt": "/sportin/static/js/2.8666b9c3.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.511cd7f9.js",
     "static/js/2.8666b9c3.chunk.js",
     "static/css/main.6c7385a7.chunk.css",
-    "static/js/main.52adf652.chunk.js"
+    "static/js/main.d1b1ab1f.chunk.js"
   ]
 }
