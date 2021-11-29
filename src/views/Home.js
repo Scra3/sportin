@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
+import ReactGA from 'react-ga';
 
 // import sections
 import Hero from '../components/sections/Hero';
@@ -15,6 +16,17 @@ const Home = () => {
     const history = useHistory();
 
     function handleClick() {
+        ReactGA.event({
+            category: 'Rechercher',
+            action: 'quoi',
+            label: document.getElementById('quoi').value,
+        });
+
+        ReactGA.event({
+            category: 'Rechercher',
+            action: 'ou',
+            label: document.getElementById('ou').value,
+        });
         history.push("/in_process");
     }
 
@@ -28,9 +40,9 @@ const Home = () => {
 
             <div className="scra-search">
                 <FormLabel>Quoi</FormLabel>
-                <Input className="form-input" type="email" name="_replyto" required placeholder="basket"/>
+                <Input id="quoi" className="form-input" type="text" name="_replyto" required placeholder="basket"/>
                 <FormLabel>Où</FormLabel>
-                <Input className="form-input" type="email" name="_replyto" required placeholder="Paris"/>
+                <Input id="ou" className="form-input" type="text" name="_replyto" required placeholder="Paris"/>
                 <button onClick={handleClick} className="button button-primary button-wide-mobile scra-search-button scra-background-color" type="submit" tag="a" color="primary" >
                     Rechercher
                 </button>

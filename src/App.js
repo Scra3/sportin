@@ -3,6 +3,7 @@ import { HashRouter, useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import ReactPixel from 'react-facebook-pixel';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -12,7 +13,7 @@ import Home from './views/Home';
 import InProcess from './views/inProcess';
 
 // Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+ReactGA.initialize("UA-213638307-2");
 
 const trackPage = page => {
   ReactGA.set({ page });
@@ -25,9 +26,11 @@ const App = () => {
   let location = useLocation();
 
   useEffect(() => {
-    const page = location.pathname;
     document.body.classList.add('is-loaded')
     childRef.current.init();
+
+    // to be compatibe with google analytics
+    const page = location.hash.replace('#', '');
     trackPage(page);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
